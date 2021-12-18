@@ -1,3 +1,4 @@
-*{
-    font-family: 'Manrope',sans-serif;
+.head{
+    background-image: url(../Images/backgrounds/h_img.jpg);
+    background-size: cover;
 }
