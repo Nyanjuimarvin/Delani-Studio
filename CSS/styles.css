@@ -2,3 +2,8 @@
     background-image: url(../Images/backgrounds/h_img.jpg);
     background-size: cover;
 }
+
+.services{
+    background-image: url(../Images/backgrounds/s_image.jpg);
+    background-size: cover;
+}
