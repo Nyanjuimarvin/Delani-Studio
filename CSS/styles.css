@@ -1,14 +1,24 @@
-.head{
-    background-image: url(../Images/backgrounds/h_img.jpg);
-    background-size: cover;
+.head {
+  background-image: url(../Images/backgrounds/h_img.jpg);
+  background-size: cover;
 }
 
-.services{
-    background-image: url(../Images/backgrounds/s_image.jpg);
-    background-size: cover;
+.services {
+  background-image: url(../Images/backgrounds/s_image.jpg);
+  background-size: cover;
 }
 
-.contact{
-    background-image: url(../Images/backgrounds/c_image.jpg);
-    background-size: cover;
+.contact {
+  background-image: url(../Images/backgrounds/c_image.jpg);
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  margin-top: -160px;
+  margin-left: 21px;
+  width: 13%;
+  height: 23%;
 }
