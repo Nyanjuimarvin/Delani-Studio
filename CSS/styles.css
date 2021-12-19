@@ -14,6 +14,8 @@
 }
 
 .services {
+  color: #ffff;
+  padding: 115px 0;
   background-image: url(../Images/backgrounds/s_image.jpg);
   background-size: cover;
 }
