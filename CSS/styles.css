@@ -1,6 +1,16 @@
 .head {
+  color: #ffff;
+  padding-top: 200px;
   background-image: url(../Images/backgrounds/h_img.jpg);
   background-size: cover;
+}
+
+.head img:first-of-type {
+  margin-bottom: 60px;
+}
+
+.head p {
+  margin-bottom: 136px;
 }
 
 .services {
