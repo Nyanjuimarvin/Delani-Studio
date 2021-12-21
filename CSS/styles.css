@@ -27,8 +27,9 @@
 }
 
 .overlay {
-    color: #ffff;
+  color: #ffff;
   position: absolute;
+  display: none;
   background-color: rgba(255, 255, 255, 0.2);
   border: 2px solid #000;
   text-align: center;
