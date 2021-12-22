@@ -3,17 +3,18 @@ const form = document.querySelector("form");
 const userName = form.elements.name;
 const email = form.elements.email;
 const message = form.elements.message;
-//const hideSeek = document.getElementsByClassName("overlay");
-//const ufd = document.getElementsByClassName("under");
 
 $(document).ready(() => {
   $(email).on("mouseover", () => {
     alert("HEY");
   });
-  $(".under").on("mouseover", () => {
-    var classArray = document.getElementsByClassName("overlay"); 
-    $(classArray).forEach(() => {
-      $(classArray).show();
-    });
-  });
+  $(".under").hover(handleMouseEnter, handleMouseLeave);
+  function handleMouseEnter(e) {
+    $(this).show(".overlay");
+  }
+  function handleMouseLeave(e) {
+    $(this).hide(".overlay");
+  }
 });
+const classList = document.getElementsByClassName("under");
+const classList1 = document.getElementsByClassName("overlay");
