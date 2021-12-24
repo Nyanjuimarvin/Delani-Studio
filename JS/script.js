@@ -8,13 +8,13 @@ $(document).ready(() => {
   $(email).on("mouseover", () => {
     alert("HEY");
   });
+
   $(".under").hover(handleMouseEnter, handleMouseLeave);
+
   function handleMouseEnter(e) {
-    $(this).show(".overlay");
+    $(this).children().show();
   }
   function handleMouseLeave(e) {
-    $(this).hide(".overlay");
+    $(this).children().hide();
   }
 });
-const classList = document.getElementsByClassName("under");
-const classList1 = document.getElementsByClassName("overlay");
