@@ -30,14 +30,16 @@
   color: #ffff;
   position: absolute;
   display: none;
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 2px solid #000;
+  background: transparent;
+  border: 5px solid #ffff;
   text-align: center;
-  padding: 60px;
   margin-top: -190px;
   margin-left: 26px;
   width: 16%;
   height: 27%;
+}
+.overlay h3{
+  text-align: center;
 }
 
 .message p{

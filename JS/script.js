@@ -9,12 +9,12 @@ $(document).ready(() => {
     alert("HEY");
   });
 
-  $(".under").hover(handleMouseEnter, handleMouseLeave);
+  $('.under').hover(handleMouseEnter, handleMouseLeave);
 
   function handleMouseEnter(e) {
-    $(this).children().show();
+    $(this).children('.overlay').show();
   }
   function handleMouseLeave(e) {
-    $(this).children().hide();
+    $(this).children('.overlay').hide();
   }
 });
