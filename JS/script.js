@@ -23,7 +23,7 @@ $(document).ready(() => {
 
 //Hover method for portfolio section
   $(".under").hover(handleMouseEnter, handleMouseLeave);
-  
+
   function handleMouseEnter(e) {
     $(this).children(".overlay").show();
   }

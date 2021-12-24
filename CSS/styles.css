@@ -1,8 +1,15 @@
+*{
+  font-family: 'Segoe UI',Helvetica,Arial, sans-serif;
+}
+
+h2{
+  font-weight: bolder;
+}
 .head {
   color: #ffff;
-  padding-top: 200px;
+  padding-top: 275px;
   background-image: url(../Images/backgrounds/h_img.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 .head img:first-of-type {
@@ -17,13 +24,15 @@
   color: #ffff;
   padding: 115px 0;
   background-image: url(../Images/backgrounds/s_image.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
-.contact {
-  padding-bottom: 100px;
-  background-image: url(../Images/backgrounds/c_image.jpg);
-  background-size: cover;
+.message p{
+  line-height: 15px;
+}
+
+.message{
+display: none;
 }
 
 .overlay {
@@ -38,19 +47,28 @@
   width: 16%;
   height: 27%;
 }
+
 .overlay h3{
   text-align: center;
 }
 
-.message p{
-    line-height: 15px;
+.contact {
+  padding-bottom: 100px;
+  background-image: url(../Images/backgrounds/c_image.jpg);
+  background-size: 100% 100%;
 }
 
-.message{
-  display: none;
+.credential input{
+  padding-right: 94px;
+}
+
+::placeholder{
+  color: #ffff;
 }
 
 input,
 textarea{
   background: transparent;
+  border: 1pt solid #ffff;
+  color: #ffff;
 }
