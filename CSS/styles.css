@@ -5,6 +5,10 @@
 h2{
   font-weight: bolder;
 }
+
+h5{
+  font-weight: bold;
+}
 .head {
   color: #ffff;
   padding-top: 275px;
@@ -25,6 +29,10 @@ h2{
   padding: 115px 0;
   background-image: url(../Images/backgrounds/s_image.jpg);
   background-size: 100% 100%;
+}
+
+.service h6{
+  font-weight: bolder;
 }
 
 .message p{
@@ -72,29 +80,4 @@ textarea{
 input:focus,
 textarea:focus{
   background-color: rgba(0, 0, 0,0.5);
-}
-
-@media (max-width: 800px){
-  h2 {
-      color: orange;
-  }
-
-  .parent{
-    display: block
-  }
-
-  .under{
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-@media (min-width: 1000px){
-  h2 {
-      color: yellow;
-  }
-}
-@media (min-width: 1500px){
-  h2 {
-      color: green;
-  }
 }
