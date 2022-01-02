@@ -5,10 +5,7 @@ const email = form.elements.email;
 const message = form.elements.message;
 
 $(document).ready(() => {
-  $(email).on("mouseover", () => {
-    alert("HEY");
-  });
-
+  
 //Show description text
   $(".service").click(function () {
     $(this).hide();

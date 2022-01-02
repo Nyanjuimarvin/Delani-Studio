@@ -39,7 +39,7 @@ display: none;
   color: #ffff;
   position: absolute;
   display: none;
-  background: transparent;
+  transition: 0;
   border: 5px solid #ffff;
   text-align: center;
   margin-top: -190px;
@@ -58,10 +58,6 @@ display: none;
   background-size: 100% 100%;
 }
 
-.credential input{
-  padding-right: 94px;
-}
-
 ::placeholder{
   color: #ffff;
 }
@@ -71,4 +67,34 @@ textarea{
   background: transparent;
   border: 1pt solid #ffff;
   color: #ffff;
+}
+
+input:focus,
+textarea:focus{
+  background-color: rgba(0, 0, 0,0.5);
+}
+
+@media (max-width: 800px){
+  h2 {
+      color: orange;
+  }
+
+  .parent{
+    display: block
+  }
+
+  .under{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 1000px){
+  h2 {
+      color: yellow;
+  }
+}
+@media (min-width: 1500px){
+  h2 {
+      color: green;
+  }
 }
