@@ -1,9 +1,3 @@
-//Business logic
-const form = document.querySelector("form");
-const userName = form.elements.name;
-const email = form.elements.email;
-const message = form.elements.message;
-
 $(document).ready(() => {
   
 //Show description text
@@ -29,3 +23,16 @@ $(document).ready(() => {
     $(this).children(".overlay").hide();
   }
 });
+
+
+//Business logic
+const form = document.querySelector("form");
+const userName = form.elements.name;
+const email = form.elements.email;
+const message = form.elements.message;
+
+$(form).on('submit',(e) =>{
+  alert(`Hey ${userName.value.trim()}. We have received your message.Thank you for reaching out`)
+  e.preventDefault();
+  form.reset();
+})
