@@ -48,16 +48,14 @@ display: none;
   position: absolute;
   display: none;
   transition: 0;
-  border: 5px solid #ffff;
-  text-align: center;
+  border: 5px solid #fff;
+  background: rgba(0, 0, 0,0.5);
+  text-align: left;
+  font-weight: bolder;
   margin-top: -190px;
   margin-left: 26px;
   width: 16%;
   height: 27%;
-}
-
-.overlay h3{
-  text-align: center;
 }
 
 .contact {
