@@ -1,5 +1,10 @@
 *{
-  font-family: 'Segoe UI',Helvetica,Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+h1{
+  font-size: bolder;
+  font-size: 48px;
 }
 
 h2{
@@ -24,6 +29,10 @@ h5{
   margin-bottom: 136px;
 }
 
+.about p{
+font-size: 18px;
+}
+
 .services {
   color: #ffff;
   padding: 115px 0;
@@ -31,9 +40,14 @@ h5{
   background-size: 100% 100%;
 }
 
+.services p{
+  font-size: 18px;
+}
+
 .service h6{
   font-weight: bolder;
 }
+
 
 .message p{
   line-height: 15px;
