@@ -41,15 +41,14 @@ $(form).on("submit", (e) => {
 //Try getting and posting messages with Axios
 
 const storeUserMessage = async () =>{
-  const body = {
+  const userData = {
     userEmail   : email.value,
     userMessage : message.value
   }
   try{
     const config = { headers: {Accept : 'application/json'}};
-    const res = await axios.post('https://end6h18ogxroegq.m.pipedream.net',body,config);
+    const res = await axios.post('https://end6h18ogxroegq.m.pipedream.net',JSON.stringify(userData),config);
     console.log(res)
-    alert(res.userMessage)
   }catch(e){
     console.log("ERROR!!",e);
   }
