@@ -39,7 +39,7 @@ Click the Link to run the app
 Clone the repository into your local repository using the git command git clone
 
 ## Future plans
-- 
+- Use Mailchimp API to track Emails and Messages
 
 ## Contact info
 Reach out to me through any of the following
