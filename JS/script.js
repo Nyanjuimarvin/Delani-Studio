@@ -36,5 +36,20 @@ $(form).on("submit", (e) => {
   e.preventDefault();
   form.reset();
 });
-//Mailchimp
-//d04ff2dd82317294daa5df4979167cee@inbound.postmarkapp.com //inbound hash
+
+//Try getting and posting messages with Axios
+
+const storeUserMessage = async () =>{
+  const body = {
+    userEmail   : email.value,
+    userMessage : message.value
+  }
+  try{
+    const config = { headers: {Accept : 'application/json'}};
+    const res = await axios.post('https://end6h18ogxroegq.m.pipedream.net',body,config);
+    console.log(res)
+    alert(res.userMessage)
+  }catch(e){
+    console.log("ERROR!!",e);
+  }
+}
