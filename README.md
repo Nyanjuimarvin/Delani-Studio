@@ -33,7 +33,7 @@ Alternatively, you can download Visual Studio Code and Git to get started.
 
 #### Google Chrome
 Click the Link to run the app
-- https://nyanjuimarvin.github.io/Akan-Names/
+- https://nyanjuimarvin.github.io/Delani-Studio/
 
 #### Visual Studio Code
 Clone the repository into your local repository using the git command git clone
