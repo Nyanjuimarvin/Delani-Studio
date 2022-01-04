@@ -48,7 +48,7 @@ const storeUserMessage = async () =>{
   try{
     const config = { headers: {Accept : 'application/json'}};
     const res = await axios.post('https://end6h18ogxroegq.m.pipedream.net',JSON.stringify(userData),config);
-    console.log(res)
+    console.log(res.config.data)
   }catch(e){
     console.log("ERROR!!",e);
   }
